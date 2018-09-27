@@ -1,6 +1,6 @@
 FROM node:10-alpine
 
-WORKDIR /usr/src/app
+WORKDIR /tagspaces
 
 RUN apk update && apk upgrade && \
     apk add --no-cache bash git

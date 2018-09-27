@@ -5,7 +5,6 @@ RUN apk update && apk upgrade && \
 
 RUN git clone https://github.com/tagspaces/tagspaces.git \
   && cd tagspaces \
-// && git checkout develop \
   && yarn install \
   && yarn install-ext
   
